@@ -57,4 +57,6 @@ The data warehouse concepts refer to the fundamental ideas, principles, and buil
 - **Business Intelligence:** The integration of data warehousing with business intelligence tools and practices is a critical concept, as it enables organizations to extract actionable insights from data.
 
 - **Data Mart:** Data marts are subsets of data warehouses that focus on specific business areas or departments. Understanding how data marts fit into the overall data warehousing strategy is important.
+##Below Is the General Purpose Architecture For Datawarehouse
+![image](https://github.com/Zain-ul-Abdin45/literate-octo-system/assets/47116254/7f4d0261-b781-4282-b0a2-b0e5a0e12ce4)
 
