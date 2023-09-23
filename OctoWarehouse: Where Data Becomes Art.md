@@ -5,7 +5,7 @@ The data warehouse acts as a centralized repository where raw data is transforme
 This transformation process not only enhances the quality of data but also makes it readily accessible for analysis and reporting, empowering organizations to make informed decisions based on reliable data.
 The data warehouse serves as a cornerstone in modern data management, bridging the gap between the vast amount of data generated and its practical, meaningful application.
 
-## What are the components and from where these data possibly come:
+## What are the components and from where do these data possibly come:
 
 Data can come from a wide range of sources, depending on the organization's needs and objectives:
 
