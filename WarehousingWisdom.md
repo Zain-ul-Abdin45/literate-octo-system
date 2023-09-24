@@ -22,6 +22,9 @@ In most cases, a data warehouse is a relational database with modules to allow m
 
 One-tier architecture for EDW means that you have a database directly connected with the analytical interfaces where the end user can make queries. Setting the direct connection between an EDW and analytical tools brings several challenges:
 
+**Example:** A small marketing agency uses a single-tier data warehouse to store client campaign data and generate monthly reports for clients. The database directly connects with reporting tools.
+
+
 Traditionally, you can consider your storage a warehouse starting from 100GB of data. Working with it directly may result in messy query results, as well as low processing speed.
 Querying data right from the DW may require precise input so that the system will be able to filter out non-required data. Which makes dealing with presentation tools a little difficult.
 Limited flexibility/analytical capabilities exist.
@@ -47,6 +50,9 @@ Key characteristics of the Two-tier architecture with Data Marts:
 
 - **Scalability:** Two-tier architectures with Data Marts offer scalability advantages. New Data Marts can be created to accommodate the needs of additional departments or business units.
 
+**Example:** A financial institution utilizes a three-tier architecture with OLAP for complex financial analysis. OLAP cubes are created to allow analysts to explore data hierarchies and perform in-depth financial modeling.
+
+
 - **Challenges:** While Two-tier architectures with Data Marts offer advantages in terms of performance and departmental control, they can introduce challenges related to data consistency, data integration, and maintaining consistency between Data Marts and the central data warehouse.
 
 This architecture is particularly useful when different departments within an organization have distinct reporting and analysis requirements, and it allows for a more tailored approach to meet those needs.
@@ -64,7 +70,10 @@ Key characteristics of the Three-tier architecture with OLAP:
 
 - **Data Warehousing Layer:** The middle layer comprises the data warehousing component, which includes data extraction, transformation, and loading (ETL) processes. Data from diverse sources is transformed into a common format and loaded into the data warehouse.
 
-- **OLAP Layer:** The topmost layer is dedicated to Online Analytical Processing (OLAP). OLAP tools and technologies are used to create multidimensional data cubes, allowing for complex and interactive data analysis. Users can perform ad-hoc queries, drill-down, slice and dice data, and generate reports for decision support.
+- **OLAP Layer:** The topmost layer is dedicated to Online Analytical Processing (OLAP). OLAP tools and technologies are used to create multidimensional data cubes, allowing for complex and interactive data analysis. Users can perform ad-hoc queries, drill down, slice and dice data, and generate reports for decision support.
+
+**Example:** A financial institution utilizes a three-tier architecture with OLAP for complex financial analysis. OLAP cubes are created to allow analysts to explore data hierarchies and perform in-depth financial modeling.
+
 
 - **Advantages:** The Three-tier architecture with OLAP offers robust reporting and analytical capabilities. It supports complex data modeling, provides a structured approach to data integration, and allows for advanced data analysis.
 
