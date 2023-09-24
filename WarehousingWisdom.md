@@ -13,7 +13,7 @@ When designing and maintaining a data warehouse, various factors need to be cons
 These considerations are fundamental to creating a robust data warehouse architecture that can support an organization's data needs effectively.
 
 
-There are different Methodologies to Develop Datawarehouse and Architecture-tiers we'll discuss Architecture Tiers then we will move to Datawarehouse Methodologies
+There are different Methodologies to Develop Datawarehouse and architecture tiers We'll discuss Architecture Tiers then we will move to Datawarehouse Methodologies
 ## Data warehouse Architecture-tiers
 ## Single-tier architecture
 In most cases, a data warehouse is a relational database with modules to allow multidimensional data or one that can separate some domain-specific information for easier access. In its most primitive form, warehousing can have just one-tier architecture.
@@ -32,6 +32,7 @@ Limited flexibility/analytical capabilities exist.
 In data warehousing, a two-tier architecture often involves the introduction of Data Marts. Unlike the single-tier architecture where all data resides in a centralized data warehouse, the two-tier architecture introduces a layer of Data Marts.
 
 
+![image](https://github.com/Zain-ul-Abdin45/literate-octo-system/assets/47116254/b7169d42-8f11-4b6d-8ffd-4716420ae1ba)
 
 
 Key characteristics of the Two-tier architecture with Data Marts:
