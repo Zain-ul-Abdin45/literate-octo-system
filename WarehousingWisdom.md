@@ -51,8 +51,6 @@ Key characteristics of the Two-tier architecture with Data Marts:
 
 This architecture is particularly useful when different departments within an organization have distinct reporting and analysis requirements, and it allows for a more tailored approach to meet those needs.
 
-## Three-tier architecture (Online analytical processing)
-# Data Warehouse Architecture-tiers
 
 ## Three-tier architecture (Online Analytical Processing - OLAP)
 
